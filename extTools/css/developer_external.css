@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#smload {
+	background-image: url(../loading.gif);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: auto;
+	display: none;
+}
+#longLoad {
+	background-image: url(../loadme.gif);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: auto;
+	display: none;
+}
+
+
+#error {
+	height: 30px;
+	width: 350px;
+	color: #F00;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: lighter;
+}
+#recaptcha_div {
+	height: 70px;
+	width: 150px;
+}
+
+#animateDiv {
+	display: none;
+	position: fixed;
+	left: 40%;
+	top: 50%;
+	z-index: 100;
+	height: 300px;
+	width: 300px;
+	margin-top: -200px;
+	background-image: url(../page-loader.gif);
+}

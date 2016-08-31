@@ -1,0 +1,35 @@
+.content-box{
+	text-align: justify;
+	text-justify: inter-word;
+	font-weight: lighter;
+	line-height: 1.5;
+}
+
+.page-header{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	color:#1abc9c;
+}
+
+.fixed-header-image{
+    height: 350px;
+    /*border-color: black;
+    border-style: solid;*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 1231px;
+}
+
+
+.advertise-box-right-sidebar{
+   background-image: url("../img/advertise-with-us.png");
+/* background-color: #cccccc; */
+/* height: 400px; */
+	min-height: 400px;
+	background-repeat:no-repeat;
+	margin-top: 50px;
+}
